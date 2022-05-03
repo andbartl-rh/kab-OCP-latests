@@ -1,15 +1,12 @@
-- Product Lifecycle Updates
+- Latest Product Lifecycle Updates
     - OCP 4.10.z
-        - OCP 4.10.9 released on April 12th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1241)
-        - OCP 4.10.z planned to be released on April 18th
+        - OCP 4.10.12 released on May 2nd [Release Notes](https://access.redhat.com/errata/RHBA-2022:1601)
     - OCP 4.9.z
-        - OCP 4.9.28 released on April 12th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1245)
-        - OCP 4.9.z planned to be released on April 19th
+        - OCP 4.9.31 released on May 3rd [Release Notes](https://access.redhat.com/errata/RHBA-2022:1605)
     - OCP 4.8.z
-        - OCP 4.8.36 released on April 12th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1155)
-        - OCP 4.8.z planned to be released on April 20th
+        - OCP 4.8.39 released on April 27th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1427)
     - OCP 4.7.z
-        - OCP 4.7.z planned to be released on April 20th
+        - OCP 4.7.49 released on April 20th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1427)
     - OCP 4.6.z
         - OCP 4.6.56 released on March 23rd [Release Notes](https://access.redhat.com/errata/RHBA-2022:0867)
             - Security update - Important:
@@ -18,11 +15,9 @@
     - OCP 3.11.z
         - OCP 3.11.664 released on April 1st [Release Notes](https://access.redhat.com/errata/RHBA-2022:1033)
     - Quay
-        - Quay 3.6.5 released on April 14th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1347)
+        - Quay 3.6.6 released on April 25th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1511)
     - RHACM
-        - RHACM 2.4 released on November 12th
-            - RHACM 2.4.1 bug fix released on December 16th [Release Notes](https://access.redhat.com/errata/RHBA-2021:51984)
-        - RHACM 2.3
-            - RHACM 2.3.9 released on April 5th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1238)
+        - RHACM 2.4.3 bug fix released on April 21st [Release Notes](https://access.redhat.com/errata/RHSA-2022:1476)
+        - RHACM 2.3.9 released on April 5th [Release Notes](https://access.redhat.com/errata/RHBA-2022:1238)
     - RHACS
-        - RHACS 3.68.1 released on February 14th [Release Notes](https://access.redhat.com/errata/RHBA-2022:0521)
+        - RHACS 3.69.1 released on April 26th [Release Notes](https://access.redhat.com/errata/RHEA-2022:1262)
