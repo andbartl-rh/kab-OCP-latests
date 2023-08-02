@@ -1,12 +1,12 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 31st July)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 2nd August)
     - OCP 4.13
         - OCP 4.13.5 released on 20th July 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:4091)
     - OCP 4.12.z
-        - OCP 4.12.25 released on 19th July 2023 [Release Notes](https://access.redhat.com/errata/RHBA-2023:4048)
+        - OCP 4.12.26 released on 26th July 2023 [Release Notes](https://access.redhat.com/errata/RHBA-2023:4221)
     - OCP 4.11.z
         - OCP 4.11.45 released on 19th July 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:4053)
     - OCP 4.10.z
-        - OCP 4.10.63 released on 6th July 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:3911)
+        - OCP 4.10.64 released on 26th July 2023 [Release Notes](https://access.redhat.com/errata/RHBA-2023:4217)
     - OCP 4.9.z
         - OCP 4.9.59 released on 5th April 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHSA-2023:1525)
     - OCP 4.8.z
