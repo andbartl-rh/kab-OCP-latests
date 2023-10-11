@@ -2,9 +2,9 @@
     - OCP 4.13
         - OCP 4.13.13 released on 20th September 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:5155)
     - OCP 4.12.z
-        - OCP 4.12.35 released on 20th September 2023 [Release Notes](https://access.redhat.com/errata/RHBA-2023:5321)
+        - OCP 4.12.36 released on 4th October 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:5390)
     - OCP 4.11.z
-        - OCP 4.11.49 released on 13th September 2023 [Release Notes](https://access.redhat.com/errata/RHSA-2023:5001)
+        - OCP 4.11.50 released on 4th October 2023 [Release Notes](https://access.redhat.com/errata/RHBA-2023:5350)
     - OCP 4.10.z
         - OCP 4.10.67 released on 6th September 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHBA-2023:4896)
     - OCP 4.9.z
