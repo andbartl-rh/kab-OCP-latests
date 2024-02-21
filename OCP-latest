@@ -12,6 +12,7 @@
     - OCP 4.9.z
         - OCP 4.9.59 released on 5th April 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHSA-2023:1525)
 
+
 - What’s new with Red Hat OpenShift Service on AWS
     - Q1 2024
       -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
