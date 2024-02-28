@@ -1,19 +1,18 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 21st February 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 28th February 2024)
+    - OCP 4.15
+        - Coming soon
     - OCP 4.14
-        - OCP 4.14.12 released on 13th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0735)
+        - OCP 4.14.13 released on 21st February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0837)
     - OCP 4.13
-        - OCP 4.13.33 released on 14th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0741)
+        - OCP 4.13.34 released on 22nd February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0845)
     - OCP 4.12.z
-        - OCP 4.12.49 released on 9th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2023:0664)
+        - OCP 4.12.50 released on 21st February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2023:0833)
     - OCP 4.11.z
         - OCP 4.11.58 released on 8th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0682)
     - OCP 4.10.z
         - OCP 4.10.67 released on 6th September 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHBA-2023:4896)
-    - OCP 4.9.z
-        - OCP 4.9.59 released on 5th April 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHSA-2023:1525)
 &nbsp;
 - What’s new with Red Hat OpenShift Service on AWS
     - Q1 2024
       -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
 	-  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
-
