@@ -1,8 +1,8 @@
 - Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 28th February 2024)
     - OCP 4.15
-        - Coming soon
+        - OCP 4.15.0 released on 27th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2023:7198)
     - OCP 4.14
-        - OCP 4.14.13 released on 21st February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0837)
+        - OCP 4.14.14 released on 28th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0941)
     - OCP 4.13
         - OCP 4.13.34 released on 22nd February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0845)
     - OCP 4.12.z
@@ -15,5 +15,7 @@
 - What’s new with Red Hat OpenShift Service on AWS
     - Q1 2024
       -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+      - **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
 	-  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
+&nbsp;
 
