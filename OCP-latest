@@ -1,10 +1,10 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 27th March 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 3rd April 2024)
     - OCP 4.15
         - OCP 4.15.3 released on 19th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1255)
     - OCP 4.14
-        - OCP 4.14.17 released on 20th March 2024 [Release Notes](https://access.redhat.com/errata/RHBA-2024:1260)
+        - OCP 4.14.18 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1458)
     - OCP 4.13
-        - OCP 4.13.37 released on 13th March 2024 [Release Notes](https://access.redhat.com/errata/RHBA-2024:1200)
+        - OCP 4.13.38 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1454)
     - OCP 4.12.z
         - OCP 4.12.53 released on 20th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1265)
     - OCP 4.11.z
@@ -16,9 +16,13 @@
     - Q1 2024
       - **ROSA with HCP regional availability update.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) is now available in the following regions:
     
-        -   Cape Town (`af-south-1`)
-        -   Seoul (`ap-northeast-2`)
-        -   Stockholm (`eu-north-1`)
+        - Hyderabad (`ap-south-2`)
+        - Milan (`eu-south-1`)
+        - London (`eu-west-2`)
+        - Mumbai (`ap-south-1`)
+        - Cape Town (`af-south-1`)
+        - Seoul (`ap-northeast-2`)
+        - Stockholm (`eu-north-1`)
         
         For more information on region availabilities, see  [Regions and availability zones](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-service-definition.html#rosa-sdpolicy-regions-az_rosa-hcp-service-definition).
       - **Log linking is enabled by default.**  Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
@@ -26,4 +30,5 @@
       - **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
 	-  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
 &nbsp;
+
 
