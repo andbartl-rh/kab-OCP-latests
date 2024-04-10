@@ -1,14 +1,14 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 3rd April 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 10th April 2024)
     - OCP 4.15
-        - OCP 4.15.3 released on 19th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1255)
+        - OCP 4.15.6 released on 2nd April 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1559)
     - OCP 4.14
         - OCP 4.14.18 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1458)
     - OCP 4.13
         - OCP 4.13.38 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1454)
     - OCP 4.12.z
-        - OCP 4.12.53 released on 20th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1265)
+        - OCP 4.12.54 released on 3rd April 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1572)
     - OCP 4.11.z
-        - OCP 4.11.58 released on 8th February 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0682)
+        - OCP 4.11.59 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1464)
     - OCP 4.10.z
         - OCP 4.10.67 released on 6th September 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHBA-2023:4896)
 &nbsp;
@@ -28,7 +28,14 @@
       - **Log linking is enabled by default.**  Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
       -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
       - **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
-	-  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
+
+  - Q2 2024
+    - **ROSA CLI update.** The ROSA CLI (rosa) was updated to a new version. For information about what has changed in this release, see the ROSA CLI release notes. For more information about the ROSA CLI (rosa), see About the ROSA CLI.
+
+    - **Longer cluster names enhancement.** You can now specify a cluster name that is longer than 15 characters. For cluster names that are longer than 15 characters, you have the option to customize the domain prefix for the cluster URL by using the domain-prefix flag in the ROSA CLI (rosa). For more information, see create cluster in Managing objects with the ROSA CLI.
+
+    - **Additional Security Groups for ROSA with HCP.** Starting with ROSA CLI version 1.2.37, you can now use the --additional-security-group-ids <sec_group_id> when creating machine pools on ROSA with HCP clusters. For more information, see Creating a machine pool using the ROSA CLI and the create machinepool section of the ROSA CLI reference.
+  -  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
 &nbsp;
 
 
