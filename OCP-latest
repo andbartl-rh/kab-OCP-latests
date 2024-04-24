@@ -1,6 +1,6 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 10th April 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 24th April 2024)
     - OCP 4.15
-        - OCP 4.15.8 released on 8th April 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1668)
+        - OCP 4.15.9 released on 16th April 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1770)
     - OCP 4.14
         - OCP 4.14.20 released on 8th April 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1681)
     - OCP 4.13
@@ -28,6 +28,7 @@
       - **Log linking is enabled by default.**  Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
       -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
       - **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
+      - **Delete cluster command enhancement.**  With the release of ROSA CLI (`rosa`) version 1.2.31, the  `--best-effort`  argument was added, which allows you to force-delete clusters when using the  `rosa delete cluster`  command. For more information, see  [delete cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-delete-cluster_rosa-managing-objects-cli).
 
   - ### Q2 2024
     - **ROSA CLI update.** The ROSA CLI (rosa) was updated to a new version. For information about what has changed in this release, see the ROSA CLI release notes. For more information about the ROSA CLI (rosa), see About the ROSA CLI.
