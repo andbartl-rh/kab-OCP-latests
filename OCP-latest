@@ -1,8 +1,8 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 15th May 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 21st May 2024)
     - OCP 4.15
-        - OCP 4.15.11 released on 2nd May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2068)
+        - OCP 4.15.12 released on 9th May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2664)
     - OCP 4.14
-        - OCP 4.14.23 released on 2nd May 2024 [Release Notes](https://access.redhat.com/errata/RHBA-2024:2051)
+        - OCP 4.14.24 released on 9th May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2668)
     - OCP 4.13
         - OCP 4.13.41 released on 2nd May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2047)
     - OCP 4.12.z
@@ -12,33 +12,65 @@
     - OCP 4.10.z
         - OCP 4.10.67 released on 6th September 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHBA-2023:4896)
 &nbsp;
-- What’s new with Red Hat OpenShift Service on AWS
-    - ### Q1 2024
-      - **ROSA with HCP regional availability update.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) is now available in the following regions:
+
+### What’s new with Red Hat OpenShift Service on AWS
+### Q2 2024
+
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
     
-        - Hyderabad (`ap-south-2`)
-        - Milan (`eu-south-1`)
-        - London (`eu-west-2`)
-        - Mumbai (`ap-south-1`)
-        - Cape Town (`af-south-1`)
-        - Seoul (`ap-northeast-2`)
-        - Stockholm (`eu-north-1`)
+-   **ROSA with HCP regional availability update.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) is now available in the following regions:
+    
+    -   Zurich (`eu-central-2`)
+    -   Hong Kong (`ap-east-1`)
+    -   Osaka (`ap-northeast-3`)
+    -   Spain (`eu-south-2`)
+    -   UAE (`me-central-1`)
         
         For more information on region availabilities, see  [Regions and availability zones](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-service-definition.html#rosa-sdpolicy-regions-az_rosa-hcp-service-definition).
-      - **Log linking is enabled by default.**  Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
-      -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.34). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
-      - **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
-      - **Delete cluster command enhancement.**  With the release of ROSA CLI (`rosa`) version 1.2.31, the  `--best-effort`  argument was added, which allows you to force-delete clusters when using the  `rosa delete cluster`  command. For more information, see  [delete cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-delete-cluster_rosa-managing-objects-cli).
+        
+    
+-   **Added support for external authentication providers.**  You can now create clusters configured with external authentication providers, such as Microsoft Entra ID and KeyCloak. For more information, see  [Creating ROSA with HCP clusters with external authentication](https://docs.openshift.com/rosa/rosa_hcp/rosa-hcp-sts-creating-a-cluster-ext-auth.html#rosa-hcp-sts-creating-a-cluster-ext-auth).
+    
+-   **Longer cluster names enhancement.**  You can now specify a cluster name that is longer than 15 characters. For cluster names that are longer than 15 characters, you can customize the domain prefix for the cluster URL by using the  `domain-prefix`  flag in the ROSA CLI (`rosa`) or by selecting the  **Create custom domain prefix**  checkbox in the Red Hat Hybrid Cloud Console. For more information, see  [create cluster in Managing objects with the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-create-cluster-command_rosa-managing-objects-cli).
+    
+-   **Additional Security Groups for ROSA with HCP.**  Starting with ROSA CLI version 1.2.37, you can now use the  `--additional-security-group-ids <sec_group_id>`  when creating machine pools on ROSA with HCP clusters. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes)  and the  [create machinepool](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-create-machinepool_rosa-managing-objects-cli)  section of the ROSA CLI reference.
+    
+-   **Node management improvements.**  Now, you can perform specific tasks to make clusters more efficient. You can cordon, uncordon, and drain a specific node. For more information, see  [Working with nodes](https://docs.openshift.com/rosa/nodes/nodes/nodes-nodes-working.html).
+    
+-   **Node drain grace periods.**  You can now configure node drain grace periods in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters with the  `rosa`  CLI.
+    
+    For more information about configuring node drain grace periods, see  [Configuring node drain grace periods in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP)](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-node-drain-grace-period_rosa-managing-worker-nodes).
+    
 
-  - ### Q2 2024
-    - **ROSA CLI update.** The ROSA CLI (rosa) was updated to a new version. For information about what has changed in this release, see the ROSA CLI release notes. For more information about the ROSA CLI (rosa), see About the ROSA CLI.
+### [](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html#rosa-q1-2024_rosa-whats-new)Q1 2024
 
-    - **Longer cluster names enhancement.** You can now specify a cluster name that is longer than 15 characters. For cluster names that are longer than 15 characters, you have the option to customize the domain prefix for the cluster URL by using the domain-prefix flag in the ROSA CLI (rosa). For more information, see create cluster in Managing objects with the ROSA CLI.
-
-    - **Additional Security Groups for ROSA with HCP.** Starting with ROSA CLI version 1.2.37, you can now use the --additional-security-group-ids <sec_group_id> when creating machine pools on ROSA with HCP clusters. For more information, see Creating a machine pool using the ROSA CLI and the create machinepool section of the ROSA CLI reference.
-
-    -  **Node management improvements.**  Now, you can perform specific tasks to make clusters more efficient. You can cordon, uncordon, and drain a specific node. For more information, see  [Working with nodes](https://docs.openshift.com/rosa/nodes/nodes/nodes-nodes-working.html).
-  -  Reference [https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html](https://docs.openshift.com/rosa/rosa_release_notes/rosa-release-notes.html)
+-   **Machine pool update.**  You can now upgrade machine pools that are configured on ROSA with HCP clusters. For more information, see  [upgrade machinepool](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-upgrade-machinepool_rosa-managing-objects-cli).
+    
+-   **ROSA with HCP regional availability update.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) is now available in the following regions:
+    
+    -   Hyderabad (`ap-south-2`)
+    -   Milan (`eu-south-1`)
+    -   London (`eu-west-2`)
+    -   Mumbai (`ap-south-1`)
+    -   Cape Town (`af-south-1`)
+    -   Seoul (`ap-northeast-2`)
+    -   Stockholm (`eu-north-1`)
+        
+        For more information on region availabilities, see  [Regions and availability zones](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-service-definition.html#rosa-sdpolicy-regions-az_rosa-hcp-service-definition).
+    
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.36). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+    
+-   **Log linking is enabled by default.**  Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
+    
+-   **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
+    
+-   **Log linking is enabled by default**  - Beginning with Red Hat OpenShift Service on AWS 4.15, log linking is enabled by default. Log linking gives you access to the container logs for your pods.
+    
+-   **Availability zone update.**  You can now optionally select a single availability zone (AZ) for machine pools when you have a multi-AZ cluster. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes).
+    
+-   **Delete cluster command enhancement.**  With the release of ROSA CLI (`rosa`) version 1.2.31, the  `--best-effort`  argument was added, which allows you to force-delete clusters when using the  `rosa delete cluster`  command. For more information, see  [delete cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-delete-cluster_rosa-managing-objects-cli).
+    
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.35). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
 &nbsp;
 
 
