@@ -1,10 +1,10 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 29th May 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 3rd June 2024)
     - OCP 4.15
         - OCP 4.15.14 released on 21st May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2865)
     - OCP 4.14
-        - OCP 4.14.25 released on 16th May 2024 [Release Notes](https://access.redhat.com/errata/RHBA-2024:2789)
+        - OCP 4.14.26 released on 23rd May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2869)
     - OCP 4.13
-        - OCP 4.13.41 released on 2nd May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2047)
+        - OCP 4.13.42 released on 23rd May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2875)
     - OCP 4.12.z
         - OCP 4.12.57 released on 16th May 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:2782)
     - OCP 4.11.z
@@ -57,6 +57,7 @@
     -   Stockholm (`eu-north-1`)
         
         For more information on region availabilities, see  [Regions and availability zones](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-service-definition.html#rosa-sdpolicy-regions-az_rosa-hcp-service-definition).
+        
     
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.36). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
     
@@ -71,6 +72,6 @@
 -   **Delete cluster command enhancement.**  With the release of ROSA CLI (`rosa`) version 1.2.31, the  `--best-effort`  argument was added, which allows you to force-delete clusters when using the  `rosa delete cluster`  command. For more information, see  [delete cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-delete-cluster_rosa-managing-objects-cli).
     
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.35). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
-&nbsp;
+
 
 
