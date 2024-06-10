@@ -15,7 +15,7 @@
 
 ### What’s new with Red Hat OpenShift Service on AWS
 
-### Q2 2024
+#### Q2 2024
 
 -   **Permission boundaries for the installer role policy.**  You can apply a policy as a  _permissions boundary_  on the ROSA installer role. The combination of policy and boundary policy limits the maximum permissions for the Amazon Web Services(AWS) Identity and Access Management (IAM) entity role. ROSA includes a set of three prepared permission boundary policy files, with which you can restrict permissions for the installer role since changing the installer policy itself is not supported. For more information, see  [Permission boundaries for the installer role](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-sts-aws-requirements-attaching-boundary-policy_rosa-sts-about-iam-resources). This is applicable only to Red Hat OpenShift Service on AWS (classic architecture).
     
@@ -43,7 +43,7 @@
     
     For more information about configuring node drain grace periods, see  [Configuring node drain grace periods in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP)](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-node-drain-grace-period_rosa-managing-worker-nodes).
 
-### Q1 2024
+#### Q1 2024
 
 -   **Machine pool update.**  You can now upgrade machine pools that are configured on ROSA with HCP clusters. For more information, see  [upgrade machinepool](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-upgrade-machinepool_rosa-managing-objects-cli).
     
