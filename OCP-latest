@@ -1,23 +1,27 @@
 - Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 24th June 2024)
     - **OCP 4.16**
-        - Coming Soon
+        - OCP 4.16.0 released on 27th June 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:0041)
     - **OCP 4.15**
         - OCP 4.15.18 released on 18th June 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:3889)
     - **OCP 4.14**
-        - OCP 4.14.29 released on 13th June 2024 [Release Notes](https://access.redhat.com/errata/RHBA-2024:3697)
+        - OCP 4.14.30 released on 19th June 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:3881)
     - **OCP 4.13**
         - OCP 4.13.44 released on 19th June 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:3885)
     - **OCP 4.12.z**
         - OCP 4.12.59 released on 12th June 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:3713)
     - **OCP 4.11.z (End of Life)**
         - OCP 4.11.59 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1464)
-    - **OCP 4.10.z (End of Life)**
-        - OCP 4.10.67 released on 6th September 2023 (EOL) [Release Notes](https://access.redhat.com/errata/RHBA-2023:4896)
 &nbsp;
 
 ### What’s new with Red Hat OpenShift Service on AWS
 
 #### Q2 2024
+
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.41). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+
+-   **ROSA command enhancement.**  The  `rosa describe`  command has a new optional argument,  `--get-role-policy-bindings`. This new argument allows users to view the policies attached to STS roles assigned to the selected cluster. For more information, see  [describe cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-describe-cluster_rosa-managing-objects-cli).
+    
+-   **Expanded customer-managed policy capabilities.**  You can now attach customer-managed policies to the IAM roles required to run both ROSA (classic architecture) and ROSA clusters. Furthermore, these customer-managed policies, including the permissions attached to those policies, are not modified during cluster or role upgrades. For more information, see  [Customer-managed policies](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-aws-customer-managed-policies_rosa-sts-about-iam-resources).
 
 -   **Permission boundaries for the installer role policy.**  You can apply a policy as a  _permissions boundary_  on the ROSA installer role. The combination of policy and boundary policy limits the maximum permissions for the Amazon Web Services(AWS) Identity and Access Management (IAM) entity role. ROSA includes a set of three prepared permission boundary policy files, with which you can restrict permissions for the installer role since changing the installer policy itself is not supported. For more information, see  [Permission boundaries for the installer role](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-sts-aws-requirements-attaching-boundary-policy_rosa-sts-about-iam-resources). This is applicable only to Red Hat OpenShift Service on AWS (classic architecture).
     
