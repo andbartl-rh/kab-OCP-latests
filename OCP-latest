@@ -1,8 +1,8 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 10th July 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 7th August 2024)
     - **OCP 4.16**
         - OCP 4.16.4 released on 24th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4613)
     - **OCP 4.15**
-        - OCP 4.15.22 released on 18th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4474)
+        - OCP 4.15.23 released on 25th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4699)
     - **OCP 4.14**
         - OCP 4.14.33 released on 17th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4479)
     - **OCP 4.13**
@@ -16,6 +16,9 @@
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q3 2024
+-   **Upgrade multiple nodes simultaneously.**  You can now configure a machine pool to upgrade multiple nodes simultaneously. Two new machine pool parameters,  `max-surge`  and  `max-unavailable`, give you greater control over how machine pool upgrades occur. For more information, see  [Upgrading ROSA with HCP clusters](https://docs.openshift.com/rosa/upgrading/rosa-hcp-upgrading.html#rosa-hcp-upgrading).
+    
+-   **ROSA with HCP Graviton (ARM) instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024, see  [AWS Graviton (ARM) instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
 
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.42). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
 
