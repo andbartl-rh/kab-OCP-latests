@@ -1,10 +1,10 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 7th August 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 19th August 2024)
     - **OCP 4.16**
         - OCP 4.16.6 released on 6th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4965)
     - **OCP 4.15**
-        - OCP 4.15.24 released on 31st July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4850)
+        - OCP 4.15.25 released on 7th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4955)
     - **OCP 4.14**
-        - OCP 4.14.33 released on 17th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4479)
+        - OCP 4.14.34 released on 7th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4960)
     - **OCP 4.13**
         - OCP 4.13.46 released on 17th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4846)
     - **OCP 4.12.z (EUS Only)**
@@ -16,6 +16,8 @@
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q3 2024
+-   **IMDSv2 support in ROSA with HCP.**  You can now enforce the use of the IMDSv2 endpoint for default machine pool worker nodes on new ROSA with HCP clusters and for new machine pools on existing clusters. For more information, see  [Creating a default ROSA cluster using Terraform](https://docs.openshift.com/rosa/rosa_hcp/terraform/rosa-hcp-creating-a-cluster-quickly-terraform.html#rosa-hcp-creating-a-cluster-quickly-terraform).
+
 -   **Upgrade multiple nodes simultaneously.**  You can now configure a machine pool to upgrade multiple nodes simultaneously. Two new machine pool parameters,  `max-surge`  and  `max-unavailable`, give you greater control over how machine pool upgrades occur. For more information, see  [Upgrading ROSA with HCP clusters](https://docs.openshift.com/rosa/upgrading/rosa-hcp-upgrading.html#rosa-hcp-upgrading).
     
 -   **ROSA with HCP Graviton (ARM) instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024, see  [AWS Graviton (ARM) instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
