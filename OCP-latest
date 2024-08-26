@@ -1,14 +1,14 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 19th August 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 26th August 2024)
     - **OCP 4.16**
-        - OCP 4.16.6 released on 6th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4965)
+        - OCP 4.16.7 released on 13th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:5107)
     - **OCP 4.15**
-        - OCP 4.15.25 released on 7th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4955)
+        - OCP 4.15.27 released on 15th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:5160)
     - **OCP 4.14**
         - OCP 4.14.34 released on 7th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4960)
     - **OCP 4.13**
         - OCP 4.13.46 released on 17th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4846)
     - **OCP 4.12.z (EUS Only)**
-        - OCP 4.12.61 released on 25th July 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:4677)
+        - OCP 4.12.63 released on 19th August 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:5200)
     - **OCP 4.11.z (End of Life)**
         - OCP 4.11.59 released on 27th March 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:1464)
 &nbsp;
@@ -16,6 +16,8 @@
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q3 2024
+-   **ROSA with HCP cluster node limit update.**  ROSA with HCP clusters can now scale to 180 worker nodes. This is an increase from the previous limit of 90 nodes. For more information, see  [Limits and scalability]
+
 -   **IMDSv2 support in ROSA with HCP.**  You can now enforce the use of the IMDSv2 endpoint for default machine pool worker nodes on new ROSA with HCP clusters and for new machine pools on existing clusters. For more information, see  [Creating a default ROSA cluster using Terraform](https://docs.openshift.com/rosa/rosa_hcp/terraform/rosa-hcp-creating-a-cluster-quickly-terraform.html#rosa-hcp-creating-a-cluster-quickly-terraform).
 
 -   **Upgrade multiple nodes simultaneously.**  You can now configure a machine pool to upgrade multiple nodes simultaneously. Two new machine pool parameters,  `max-surge`  and  `max-unavailable`, give you greater control over how machine pool upgrades occur. For more information, see  [Upgrading ROSA with HCP clusters](https://docs.openshift.com/rosa/upgrading/rosa-hcp-upgrading.html#rosa-hcp-upgrading).
