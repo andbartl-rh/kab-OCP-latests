@@ -16,7 +16,7 @@
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q3 2024
--   **ROSA with HCP cluster node limit update.**  ROSA with HCP clusters can now scale to 180 worker nodes. This is an increase from the previous limit of 90 nodes. For more information, see  [Limits and scalability]
+-   **ROSA with HCP cluster node limit update.**  ROSA with HCP clusters can now scale to 180 worker nodes. This is an increase from the previous limit of 90 nodes. For more information, see  [Limits and scalability](https://docs.openshift.com/rosa/rosa_planning/rosa-limits-scalability.html).
 
 -   **IMDSv2 support in ROSA with HCP.**  You can now enforce the use of the IMDSv2 endpoint for default machine pool worker nodes on new ROSA with HCP clusters and for new machine pools on existing clusters. For more information, see  [Creating a default ROSA cluster using Terraform](https://docs.openshift.com/rosa/rosa_hcp/terraform/rosa-hcp-creating-a-cluster-quickly-terraform.html#rosa-hcp-creating-a-cluster-quickly-terraform).
 
