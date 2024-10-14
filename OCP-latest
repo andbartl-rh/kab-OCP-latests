@@ -1,31 +1,41 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 2nd October 2024)
-    - **OCP 4.17**
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 14th October 2024)
+    - **OCP 4.17 (Full Support)**
         - OCP 4.17.0 To be released November
-    - **OCP 4.16**
-        - OCP 4.16.14 released on 24th September 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:6824)
-    - **OCP 4.15**
-        - OCP 4.15.33 released on 19th September 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:6685)
-    - **OCP 4.14**
-        - OCP 4.14.37 released on 19th September 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:6689)
-    - **OCP 4.13**
+    - **OCP 4.16 (Full Support)**
+        - OCP 4.16.15 released on 2nd October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:7174)
+    - **OCP 4.15 (Maintenance Support)**
+        - OCP 4.15.35 released on 2nd October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:7179)
+    - **OCP 4.14 (Maintenance Support)**
+        - OCP 4.14.38 released on 3rd October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:7184)
+    - **OCP 4.13 (Maintenance Support)**
         - OCP 4.13.51 released on 25th September 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:6811)
     - **OCP 4.12.z (EUS Only)**
         - OCP 4.12.66 released on 19th September 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:6705)
+        - 
+[Red Hat OpenShift Container Platform Life Cycle Policy](https://access.redhat.com/support/policy/updates/openshift)
 &nbsp;
 
 ### What’s new with Red Hat OpenShift Service on AWS
 
+### Q4 2024
+
+-   **Configure machine pool disk volume for ROSA with HCP clusters.**  You can now configure the disk volume size for machine pools in ROSA with HCP clusters. The default disk size is 300 GiB, and you can configure it from a minimum of 75 GiB to a maximum of 16,384 GiB. For more information, see  [Configuring machine pool disk volume](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#configuring-machine-pool-disk-volume_rosa-managing-worker-nodes).
+    
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+
 ### Q3 2024
--   **ROSA with HCP cluster node limit update.**  ROSA with HCP clusters can now scale to 180 worker nodes. This is an increase from the previous limit of 90 nodes. For more information, see  [Limits and scalability](https://docs.openshift.com/rosa/rosa_planning/rosa-limits-scalability.html).
 
+-   **ROSA with HCP multi-architecture cluster update.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created before 25 July, 2024 will migrate to a multi-architecture image on their next upgrade allowing you to use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads. For more information, see  [Upgrading ROSA with HCP clusters](https://docs.openshift.com/rosa/upgrading/rosa-hcp-upgrading.html#rosa-upgrade-options_rosa-hcp-upgrading).
+    
+-   **ROSA with HCP cluster node limit update.**  ROSA with HCP clusters can now scale to 500 worker nodes. This is an increase from the previous limit of 250 nodes. For more information, see  [ROSA with HCP limits and scalability](https://docs.openshift.com/rosa/rosa_planning/rosa-hcp-limits-scalability.html#tested-cluster-maximums-hcp-sd_rosa-hcp-limits-scalability).
+    
 -   **IMDSv2 support in ROSA with HCP.**  You can now enforce the use of the IMDSv2 endpoint for default machine pool worker nodes on new ROSA with HCP clusters and for new machine pools on existing clusters. For more information, see  [Creating a default ROSA cluster using Terraform](https://docs.openshift.com/rosa/rosa_hcp/terraform/rosa-hcp-creating-a-cluster-quickly-terraform.html#rosa-hcp-creating-a-cluster-quickly-terraform).
-
+    
 -   **Upgrade multiple nodes simultaneously.**  You can now configure a machine pool to upgrade multiple nodes simultaneously. Two new machine pool parameters,  `max-surge`  and  `max-unavailable`, give you greater control over how machine pool upgrades occur. For more information, see  [Upgrading ROSA with HCP clusters](https://docs.openshift.com/rosa/upgrading/rosa-hcp-upgrading.html#rosa-hcp-upgrading).
     
--   **ROSA with HCP Graviton (ARM) instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024, see  [AWS Graviton (ARM) instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
-
+-   **ROSA with HCP Graviton Arm-based instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024. For more information, see  [AWS Graviton Arm-based instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
+    
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.42). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
-
 ### Q2 2024
 
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.41). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
