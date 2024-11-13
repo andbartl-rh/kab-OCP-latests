@@ -1,8 +1,8 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Monday 11th November 2024)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 13th November 2024)
     - **OCP 4.17 (Full Support)**
         - OCP 4.17.3 released on 29th October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8434)
     - **OCP 4.16 (Full Support)**
-        - OCP 4.16.19 released on 30th October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8415)
+        - OCP 4.16.20 released on 6th November 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8683)
     - **OCP 4.15 (Maintenance Support)**
         - OCP 4.15.37 released on 30th October 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8425)
     - **OCP 4.14 (Maintenance Support)**
@@ -19,11 +19,15 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q4 2024
-- **`VolumeDetachTimeout`  configuration applied to machine pools for ROSA with HCP.**  ROSA is applying a  `VolumeDetachTimeout`  configuration of 5 minutes to all machine pools. This prevents issues with node deletion when volumes fail to detach. This only applies to ROSA with HCP.
+-   **`rosa create network`  command added for ROSA with HCP clusters.**  You can now use the  `rosa create network`  command when creating ROSA with HCP clusters to create networks using AWS CloudFormation templates. This helper command is intended to help create and configure a VPC for use with ROSA with HCP. This command also supports zero egress clusters. For more information, see  [create network](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-create-network_rosa-managing-objects-cli).
+
+-   **Create additional security groups in ROSA with HCP clusters.**  Starting with ROSA CLI version 1.2.47, you can now create additional security groups using the ROSA CLI when creating ROSA with HCP clusters. Note that additional security group IDs attached to the machine pool cannot be modified. To remove or add more security group IDs, replace the entire machine pool with a new one.
+
+-   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+
+-   **`VolumeDetachTimeout`  configuration applied to machine pools for ROSA with HCP.**  ROSA is applying a  `VolumeDetachTimeout`  configuration of 5 minutes to all machine pools. This prevents issues with node deletion when volumes fail to detach. This only applies to ROSA with HCP.
 
 -   **Configure machine pool disk volume for ROSA with HCP clusters.**  You can now configure the disk volume size for machine pools in ROSA with HCP clusters. The default disk size is 300 GiB, and you can configure it from a minimum of 75 GiB to a maximum of 16,384 GiB. For more information, see  [Configuring machine pool disk volume](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#configuring-machine-pool-disk-volume_rosa-managing-worker-nodes).
-    
--   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
 
 ### Q3 2024
 
