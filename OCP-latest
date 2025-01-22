@@ -1,17 +1,17 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Friday 17th January 2025)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 22nd January 2025)
 	- **OCP 4.18 (Full Support)**
         - Coming Soon
     - **OCP 4.17 (Full Support)**
-        - OCP 4.17.11 released on 8th January 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:0023)
+        - OCP 4.17.12 released on 14th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:0115)
     - **OCP 4.16 (Full Support)**
-        - OCP 4.16.29 released on 9th January 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:0018)
+        - OCP 4.16.30 released on 15th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:0140)
     - **OCP 4.15 (Maintenance Support)**
-        - OCP 4.15.42 released on 2nd January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2024:11562)
+        - OCP 4.15.43 released on 15th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:0121)
     - **OCP 4.14 (Maintenance Support)**
         - OCP 4.14.44 released on 9th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:0029)
     - **OCP 4.13 (End of Life)**
         - OCP 4.13.53 released on 6th November 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8688)
-    - **OCP 4.12.z (EUS Only)**
+    - **OCP 4.12.z (Extended Support)**
         - OCP 4.12.70 released on 5th December 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:10533)
 
 
@@ -20,6 +20,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 &nbsp;
 
 ### What’s new with Red Hat OpenShift Service on AWS
+
+### Q1 2025
+
+-   **Egress lockdown is now available as a Technology Preview on Red Hat OpenShift Service on AWS clusters.**  You can create a fully operational cluster that does not require a public egress by configuring a virtual private cloud (VPC) and using the  `--properties zero_egress:true`  flag when creating your cluster. For more information, see  [Creating a Red Hat OpenShift Service on AWS cluster with egress lockdown](https://docs.openshift.com/rosa/rosa_hcp/rosa-hcp-egress-lockdown-install.html#rosa-hcp-egress-lockdown-install).
+    - **Important Note:**  Egress lockdown is a Technology Preview feature and should **NOT** be used in production environments
 
 ### Q4 2024
 
@@ -48,41 +53,3 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 -   **ROSA with HCP Graviton Arm-based instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024. For more information, see  [AWS Graviton Arm-based instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
     
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.42). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
-### Q2 2024
-
--   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.41). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
-    
--   **Approved Access for ROSA clusters.**  Red Hat Site Reliability Engineering (SRE) managing and proactively supporting ROSA Clusters will typically not require elevated access to customer clusters as part of the normal operations. In the unlikely event should Red Hat SRE (Site Reliability Engineer) need elevated access, the  _Approved Access_  functionality provides an interface for customers to review and  _approve_  or  _deny_  access requests.
-    
-    Elevated access requests to ROSA clusters and the corresponding cloud accounts can be created by Red Hat SRE either in response to a customer-initiated support ticket or in response to alerts received by a Red Hat SRE, as part of the standard incident response process. For more information, see  [Approved Access](https://docs.openshift.com/rosa/support/approved-access.html#approved-access). This is applicable to ROSA and Red Hat OpenShift Service on AWS (classic architecture).
-    
--   **ROSA command enhancement.**  The  `rosa describe`  command has a new optional argument,  `--get-role-policy-bindings`. This new argument allows users to view the policies attached to STS roles assigned to the selected cluster. For more information, see  [describe cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-describe-cluster_rosa-managing-objects-cli).
-    
--   **Expanded customer-managed policy capabilities.**  You can now attach customer-managed policies to the IAM roles required to run both ROSA (classic architecture) and ROSA clusters. Furthermore, these customer-managed policies, including the permissions attached to those policies, are not modified during cluster or role upgrades. For more information, see  [Customer-managed policies](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-aws-customer-managed-policies_rosa-sts-about-iam-resources).
-    
--   **Permission boundaries for the installer role policy.**  You can apply a policy as a  _permissions boundary_  on the ROSA installer role. The combination of policy and boundary policy limits the maximum permissions for the Amazon Web Services(AWS) Identity and Access Management (IAM) entity role. ROSA includes a set of three prepared permission boundary policy files, with which you can restrict permissions for the installer role since changing the installer policy itself is not supported. For more information, see  [Permission boundaries for the installer role](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-sts-aws-requirements-attaching-boundary-policy_rosa-sts-about-iam-resources). This is applicable only to Red Hat OpenShift Service on AWS (classic architecture).
-    
--   **Cluster delete protection.**  You can now enable the cluster delete protection option, which helps to prevent you from accidentally deleting a cluster. For more information on using the cluster delete protection option with the ROSA CLI, see  [edit cluster](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-edit-cluster_rosa-managing-objects-cli). For more information on using the cluster delete protection option in the UI, see  [Creating a cluster with the default options using OpenShift Cluster Manager](https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa-sts-creating-a-cluster-quickly.html#rosa-sts-creating-a-cluster-using-defaults-ocm_rosa-sts-creating-a-cluster-quickly).
-    
--   **ROSA with HCP regions added.**  Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) is now available in the following regions:
-    
-    -   Zurich (`eu-central-2`)
-    -   Hong Kong (`ap-east-1`)        
-    -   Osaka (`ap-northeast-3`)        
-    -   Spain (`eu-south-2`)        
-    -   UAE (`me-central-1`)
- For more information on region availabilities, see  [Regions and availability zones](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-service-definition.html#rosa-sdpolicy-regions-az_rosa-hcp-service-definition).
-        
-    
--   **Added support for external authentication providers.**  You can now create clusters configured with external authentication providers, such as Microsoft Entra ID and KeyCloak. For more information, see  [Creating ROSA with HCP clusters with external authentication](https://docs.openshift.com/rosa/rosa_hcp/rosa-hcp-sts-creating-a-cluster-ext-auth.html#rosa-hcp-sts-creating-a-cluster-ext-auth).
-    
--   **Longer cluster names enhancement.**  You can now specify a cluster name that is longer than 15 characters. For cluster names that are longer than 15 characters, you can customize the domain prefix for the cluster URL by using the  `domain-prefix`  flag in the ROSA CLI (`rosa`) or by selecting the  **Create custom domain prefix**  checkbox in the Red Hat Hybrid Cloud Console. For more information, see  [create cluster in Managing objects with the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-create-cluster-command_rosa-managing-objects-cli).
-    
--   **Additional Security Groups for ROSA with HCP.**  Starting with ROSA CLI version 1.2.37, you can now use the  `--additional-security-group-ids <sec_group_id>`  when creating machine pools on ROSA with HCP clusters. For more information, see  [Creating a machine pool using the ROSA CLI](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#creating_machine_pools_cli_rosa-managing-worker-nodes)  and the  [create machinepool](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-manage-objects-cli.html#rosa-create-machinepool_rosa-managing-objects-cli)  section of the ROSA CLI reference.
-    
--   **Node management improvements.**  Now, you can perform specific tasks to make clusters more efficient. You can cordon, uncordon, and drain a specific node. For more information, see  [Working with nodes](https://docs.openshift.com/rosa/nodes/nodes/nodes-nodes-working.html).
-    
--   **Node drain grace periods.**  You can now configure node drain grace periods in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters with the  `rosa`  CLI.
-    
-    For more information about configuring node drain grace periods, see  [Configuring node drain grace periods in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP)](https://docs.openshift.com/rosa/rosa_cluster_admin/rosa_nodes/rosa-managing-worker-nodes.html#rosa-node-drain-grace-period_rosa-managing-worker-nodes).
-
