@@ -53,3 +53,5 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 -   **ROSA with HCP Graviton Arm-based instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024. For more information, see  [AWS Graviton Arm-based instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
     
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.42). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+
+&nbsp;
