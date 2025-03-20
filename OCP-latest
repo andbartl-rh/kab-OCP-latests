@@ -1,12 +1,12 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 13th March 2025)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 20th March 2025)
 	- **OCP 4.18 (Full Support)**
-        - OCP 4.18.2 released on 4th March 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:1904)
+        - OCP 4.18.4 released on 11th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2449)
     - **OCP 4.17 (Full Support)**
-        - OCP 4.17.19 released on 5th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1912)
+        - OCP 4.17.20 released on 12th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2445)
     - **OCP 4.16 (Maintenance Support)**
         - OCP 4.16.37 released on 5th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1907)
     - **OCP 4.15 (Maintenance Support)**
-        - OCP 4.15.46 released on 27th February 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1711)
+        - OCP 4.15.47 released on 12th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2454)
     - **OCP 4.14 (Maintenance Support)**
         - OCP 4.14.48 released on 19th February 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1451)
     - **OCP 4.13 (End of Life)**
@@ -19,6 +19,8 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 ### What’s new with Red Hat OpenShift Service on AWS
 
 ### Q1 2025
+
+-   **Cluster autoscaling is now available for ROSA with HCP.**  You can configure cluster autoscaling for ROSA with HCP. For more information, see  [Cluster autoscaling](https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html-single/cluster_administration/#rosa-cluster-autoscaling-hcp).
 
 -   **New version of Red Hat OpenShift Service on AWS available.**  Red Hat OpenShift Service on AWS version 4.18 is now available. For more information about upgrading to this latest version, see  [Upgrading ROSA (classic architecture) clusters](https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html-single/upgrading/#rosa-upgrading-sts).
 
