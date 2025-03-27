@@ -1,16 +1,16 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 20th March 2025)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 27th March 2025)
 	- **OCP 4.18 (Full Support)**
-        - OCP 4.18.4 released on 11th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2449)
+        - OCP 4.18.5 released on 18th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2705)
     - **OCP 4.17 (Full Support)**
-        - OCP 4.17.20 released on 12th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2445)
+        - OCP 4.17.21 released on 19th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2696)
     - **OCP 4.16 (Maintenance Support)**
         - OCP 4.16.37 released on 5th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1907)
     - **OCP 4.15 (Maintenance Support)**
         - OCP 4.15.47 released on 12th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2454)
     - **OCP 4.14 (Maintenance Support)**
-        - OCP 4.14.48 released on 19th February 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1451)
+        - OCP 4.14.49 released on 19th March 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:2710)
     - **OCP 4.13 (End of Life)**
-        - OCP 4.13.53 released on 6th November 2024 [Release Notes](https://access.redhat.com/errata/RHSA-2024:8688)
+        - OCP 4.13.55 released on 13th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1116)
 
 Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Life Cycle Policy](https://access.redhat.com/support/policy/updates/openshift)
 
@@ -29,7 +29,6 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
     
     -   Configure a  `cluster-admin`  user and optionally define a custom password.
     -   Configure the root disk size for the default machine pool.
-    
 
 -   **Image configuration is now available for ROSA with HCP.**  You can configure registries within a cluster to exclude some registries or allow only a defined list. It also allows to expose additional trusted bundle for registries to pull from. For more information, see  [Image configuration resources for ROSA with HCP](https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html-single/images/#images-configuration-parameters-hcp_image-configuration-hcp).
 
@@ -71,5 +70,7 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 -   **ROSA with HCP Graviton Arm-based instance types.**  You can now use Amazon Web Services (AWS) Arm-based Graviton instance types for your workloads in Red Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP) clusters created after 24 July, 2024. For more information, see  [AWS Graviton Arm-based instance types](https://docs.openshift.com/rosa/rosa_architecture/rosa_policy_service_definition/rosa-hcp-instance-types.html#rosa-sdpolicy-aws-instance-types-graviton_rosa-hcp-instance-types).
     
 -   **ROSA CLI update.**  The ROSA CLI (`rosa`) was updated to a new version. For information about what has changed in this release, see the  [ROSA CLI release notes](https://github.com/openshift/rosa/releases/tag/v1.2.42). For more information about the ROSA CLI (`rosa`), see  [About the ROSA CLI](https://docs.openshift.com/rosa/cli_reference/rosa_cli/rosa-get-started-cli.html#rosa-about_rosa-getting-started-cli).
+
+Source: [What’s new with Red Hat OpenShift Service on AWS]( https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/whats_new/rosa-whats-new#rosa-whats-new)
 
 &nbsp;
