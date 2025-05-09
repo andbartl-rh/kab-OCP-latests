@@ -1,6 +1,6 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Wednesday 30th April 2025)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Friday 9th May 2025)
 	- **OCP 4.18 (Full Support)**
-        - OCP 4.18.10 released on 22th April 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:4019)
+        - OCP 4.18.11 released on 1st May 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:4211)
     - **OCP 4.17 (Full Support)**
         - OCP 4.17.27 released on 16th April 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:4204)
     - **OCP 4.16 (Maintenance Support)**
@@ -8,7 +8,7 @@
     - **OCP 4.15 (Maintenance Support)**
         - OCP 4.15.49 released on 16th April 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:3790)
     - **OCP 4.14 (Maintenance Support)**
-        - OCP 4.14.50 released on 9th April 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:3569)
+        - OCP 4.14.51 released on 30th April 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:4177)
     - **OCP 4.13 (End of Life)**
         - OCP 4.13.55 released on 13th January 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:1116)
 
