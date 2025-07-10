@@ -2,9 +2,9 @@
 	- **OCP 4.19 (Full Support)**
         - OCP 4.19.2 released on 1st July 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:9750)
 	- **OCP 4.18 (Full Support)**
-        - OCP 4.18.17 released on 10th June 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:8560)
+        - OCP 4.18.19 released on 2nd July 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:9725)
     - **OCP 4.17 (Maintenance Support)**
-        - OCP 4.17.33 released on 11th June 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:8552)
+        - OCP 4.17.34 released on 25th June 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:9289)
     - **OCP 4.16 (Maintenance Support)**
         - OCP 4.16.42 released on 11th June 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:8556)
     - **OCP 4.15 (Maintenance Support)**
@@ -25,6 +25,6 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjc1MTIwMCwtODU4MDIzNTg2LC0xMz
-c1NDc0MTYyLC02MTE3MzAzNTMsNzI2NDY0MDVdfQ==
+eyJoaXN0b3J5IjpbMzc4MjM0Mzc2LC04NTgwMjM1ODYsLTEzNz
+U0NzQxNjIsLTYxMTczMDM1Myw3MjY0NjQwNV19
 -->
