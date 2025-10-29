@@ -1,12 +1,12 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 23rd October 2025)
-	- **OCP 4.20 (Coming Soon)**
-        - Coming Soon
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 23rd30th October 2025)
+	- **OCP 4.20 (Coming SoonFull Support)**
+        - Coming SoonOCP 4.20.0 released on 21st October 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:9562)
 	- **OCP 4.19 (Full Support)**
-        - OCP 4.19.16 released on 14th October 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:17663)
+        - OCP 4.19.167 released on 14th22nd October 2025 [Release Notes](https://access.redhat.com/errata/RHBSA-2025:17668233)
 	- **OCP 4.18 (Maintenance Support)**
         - OCP 4.18.26 released on 1st October 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:16732)
     - **OCP 4.17 (Maintenance Support)**
-        - OCP 4.17.41 released on 8th October 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:17232)
+        - OCP 4.17.412 released on 8th22nd October 2025 [Release Notes](https://access.redhat.com/errata/RHSBA-2025:1782325)
     - **OCP 4.16 (Maintenance Support)**
         - OCP 4.16.50 released on 15th October 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:17690)
     - **OCP 4.15 (End of Life)**
@@ -27,10 +27,10 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjExMTkxOTYsLTI2OTQzMTk2Miw5Mz
-g3MjI2OCwtMjA4NTc2MTIxLDUwNjc4MTgwMSwtMTQ2NTg5OTY1
-MCwxMTQyMjgyMDg2LDEwMzEyMDM3MTksLTExODc2MTgxNjEsLT
-EzODA4OTgwMzYsLTI1NjE3MDY5MCwtMTk4MzIxOTg4NiwtODU4
-MDIzNTg2LC0xMzc1NDc0MTYyLC02MTE3MzAzNTMsNzI2NDY0MD
-VdfQ==
+eyJoaXN0b3J5IjpbNzQ4MjczMTg0LC0xMDIxMTE5MTk2LC0yNj
+k0MzE5NjIsOTM4NzIyNjgsLTIwODU3NjEyMSw1MDY3ODE4MDEs
+LTE0NjU4OTk2NTAsMTE0MjI4MjA4NiwxMDMxMjAzNzE5LC0xMT
+g3NjE4MTYxLC0xMzgwODk4MDM2LC0yNTYxNzA2OTAsLTE5ODMy
+MTk4ODYsLTg1ODAyMzU4NiwtMTM3NTQ3NDE2MiwtNjExNzMwMz
+UzLDcyNjQ2NDA1XX0=
 -->
