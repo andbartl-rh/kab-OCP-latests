@@ -1,6 +1,6 @@
 - Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 20th November 2025)
 	- **OCP 4.20 (Full Support)**
-        - OCP 4.20.3 released on 11th November 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:19890)
+        - OCP 4.20.4 released on 11th November 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:19890)
 	- **OCP 4.19 (Full Support)**
         - OCP 4.19.18 released on 5th November 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:19301)
 	- **OCP 4.18 (Maintenance Support)**
@@ -25,11 +25,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE2ODMyMDEsMTI5ODU3NTE5NiwyMj
-g3NDI5MzAsMTYyMDg0MDc3OSwtMzc0OTUxMTY1LDIwOTU1NTUy
-NzMsMTEwNjc1NTMyLC0xMDIxMTE5MTk2LC0yNjk0MzE5NjIsOT
-M4NzIyNjgsLTIwODU3NjEyMSw1MDY3ODE4MDEsLTE0NjU4OTk2
-NTAsMTE0MjI4MjA4NiwxMDMxMjAzNzE5LC0xMTg3NjE4MTYxLC
-0xMzgwODk4MDM2LC0yNTYxNzA2OTAsLTE5ODMyMTk4ODYsLTg1
-ODAyMzU4Nl19
+eyJoaXN0b3J5IjpbLTc4NTIyOTk1MiwxMjk4NTc1MTk2LDIyOD
+c0MjkzMCwxNjIwODQwNzc5LC0zNzQ5NTExNjUsMjA5NTU1NTI3
+MywxMTA2NzU1MzIsLTEwMjExMTkxOTYsLTI2OTQzMTk2Miw5Mz
+g3MjI2OCwtMjA4NTc2MTIxLDUwNjc4MTgwMSwtMTQ2NTg5OTY1
+MCwxMTQyMjgyMDg2LDEwMzEyMDM3MTksLTExODc2MTgxNjEsLT
+EzODA4OTgwMzYsLTI1NjE3MDY5MCwtMTk4MzIxOTg4NiwtODU4
+MDIzNTg2XX0=
 -->
