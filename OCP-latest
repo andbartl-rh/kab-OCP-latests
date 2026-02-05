@@ -1,9 +1,9 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 28th January 2026)
+- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 5th February 2026)
     - **OCP 4.21 (Full Support)**
         - OCP 4.21.0 released on 3rd February 2026 [Release Notes](https://access.redhat.com/errata/RHBA-2026:1481)
 
 	- **OCP 4.20 (Full Support)**
-        - OCP 4.20.10 released on 13th January 2026 [Release Notes](https://access.redhat.com/errata/RHBA-2026:0370)
+        - OCP 4.20.12 released on 13th January 2026 [Release Notes](https://access.redhat.com/errata/RHBA-2026:0370)
 	- **OCP 4.19 (Full Support)**
         - OCP 4.19.21 released on 10th December 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:22786)
 	- **OCP 4.18 (Maintenance Support)**
@@ -12,8 +12,6 @@
         - OCP 4.17.46 released on 6th January 2026 [Release Notes](https://access.redhat.com/errata/RHBA-2026:23120)
     - **OCP 4.16 (Extended Support)**
         - OCP 4.16.54 released on 10th December 2025 [Release Notes](https://access.redhat.com/errata/RHBA-2025:22725)
-    - **OCP 4.15 (End of Life)**
-        - OCP 4.15.59 released on 6th November 2025 [Release Notes](https://access.redhat.com/errata/RHSA-2025:19306)
 
 Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Life Cycle Policy](https://access.redhat.com/support/policy/updates/openshift)
 
@@ -28,11 +26,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjcyNzU1NzUsLTE4MDc4MzEwMDMsMT
-I3NDc4Njc5MywtMTQ1ODIyNTU0MiwxOTg5MTk4MzgyLDEwOTEy
-MzY4OTksNzQ5MjQxMDM1LDE5NDc2ODUyMjUsNjI1MzgxMzE3LD
-EyOTg1NzUxOTYsMjI4NzQyOTMwLDE2MjA4NDA3NzksLTM3NDk1
-MTE2NSwyMDk1NTU1MjczLDExMDY3NTUzMiwtMTAyMTExOTE5Ni
-wtMjY5NDMxOTYyLDkzODcyMjY4LC0yMDg1NzYxMjEsNTA2Nzgx
-ODAxXX0=
+eyJoaXN0b3J5IjpbLTEyNTgxMzM3MjksLTE5NjcyNzU1NzUsLT
+E4MDc4MzEwMDMsMTI3NDc4Njc5MywtMTQ1ODIyNTU0MiwxOTg5
+MTk4MzgyLDEwOTEyMzY4OTksNzQ5MjQxMDM1LDE5NDc2ODUyMj
+UsNjI1MzgxMzE3LDEyOTg1NzUxOTYsMjI4NzQyOTMwLDE2MjA4
+NDA3NzksLTM3NDk1MTE2NSwyMDk1NTU1MjczLDExMDY3NTUzMi
+wtMTAyMTExOTE5NiwtMjY5NDMxOTYyLDkzODcyMjY4LC0yMDg1
+NzYxMjFdfQ==
 -->
