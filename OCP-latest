@@ -1,4 +1,6 @@
-- Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 23rd April 2026)
+# OpenShift latest stable channel errata report
+
+Generated: 2026-04-23 13:27 UTC
 
 - **4.21 (4.21.10)** — RHSA: [RHSA-2026:7245](https://access.redhat.com/errata/RHSA-2026:7245)
 
@@ -34,11 +36,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTA0NjI0MCw3NDgwNjk2ODgsMTI3Mj
-Q1MDYxMCwxMjA3Nzg1NDg2LC0xMjkyMDEyMTQyLDEyMDYxNzU1
-OTYsMTg5NDkxNTg3OCwxOTgyOTA4MTgzLC0yMjcyMjYzNzgsLT
-EyNDAwMjAwNTUsLTEyNjkzMzMyODEsODk5ODE2Nzk4LDIwNTc3
-ODk5MTMsLTUxNzU0NDI2LDIwMjI4ODc1ODgsLTU2MDMyMDM1MC
-wtMzUyODE0NDQ1LDEwNjQ1MTU3MDQsMTAwMjM3MTMxOSwtMTk2
-NzI3NTU3NV19
+eyJoaXN0b3J5IjpbNDcyMTU1MzYzLC02OTUwNDYyNDAsNzQ4MD
+Y5Njg4LDEyNzI0NTA2MTAsMTIwNzc4NTQ4NiwtMTI5MjAxMjE0
+MiwxMjA2MTc1NTk2LDE4OTQ5MTU4NzgsMTk4MjkwODE4MywtMj
+I3MjI2Mzc4LC0xMjQwMDIwMDU1LC0xMjY5MzMzMjgxLDg5OTgx
+Njc5OCwyMDU3Nzg5OTEzLC01MTc1NDQyNiwyMDIyODg3NTg4LC
+01NjAzMjAzNTAsLTM1MjgxNDQ0NSwxMDY0NTE1NzA0LDEwMDIz
+NzEzMTldfQ==
 -->
