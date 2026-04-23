@@ -1,18 +1,18 @@
 - Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 23rd April 2026)
 
-| Version  | Z-stream | RHSA | RHBA |
+| Version | Z-stream | RHSA | RHBA |
 
-| -------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|:--------|:---------|:-----|:-----|
 
-| 4.21 | 4.21.10  | [RHSA-2026:7245](https://access.redhat.com/errata/RHSA-2026: | None |
+| 4.21 | 4.21.10 | [RHSA-2026:7245](https://access.redhat.com/errata/RHSA-2026:7245) | None |
 
-| 4.20 | 4.20.18  | [RHSA-2026:6564](https://access.redhat.com/errata/RHSA-2026: | None |
+| 4.20 | 4.20.18 | [RHSA-2026:6564](https://access.redhat.com/errata/RHSA-2026:6564) | None |
 
-| 4.19 | 4.19.27  | [RHSA-2026:5878](https://access.redhat.com/errata/RHSA-2026: | None |
+| 4.19 | 4.19.27 | [RHSA-2026:5878](https://access.redhat.com/errata/RHSA-2026:5878) | None |
 
-| 4.18 | 4.18.37  | [RHSA-2026:6554](https://access.redhat.com/errata/RHSA-2026: | None |
+| 4.18 | 4.18.37 | [RHSA-2026:6554](https://access.redhat.com/errata/RHSA-2026:6554) | None |
 
-| 4.16 | 4.16.55  | [RHSA-2026:327](https://access.redhat.com/errata/RHSA-2026:3 | None |
+| 4.16 | 4.16.55 | [RHSA-2026:327](https://access.redhat.com/errata/RHSA-2026:327) | None |
 
     - **OCP 4.21 (Full Support)**
         - OCP 4.21.10 released on 15th April 2026 [Release Notes](https://access.redhat.com/errata/RHSA-2026:7245)
@@ -38,11 +38,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzc4NTQ4NiwtMTI5MjAxMjE0MiwxMj
-A2MTc1NTk2LDE4OTQ5MTU4NzgsMTk4MjkwODE4MywtMjI3MjI2
-Mzc4LC0xMjQwMDIwMDU1LC0xMjY5MzMzMjgxLDg5OTgxNjc5OC
-wyMDU3Nzg5OTEzLC01MTc1NDQyNiwyMDIyODg3NTg4LC01NjAz
-MjAzNTAsLTM1MjgxNDQ0NSwxMDY0NTE1NzA0LDEwMDIzNzEzMT
-ksLTE5NjcyNzU1NzUsLTE4MDc4MzEwMDMsMTI3NDc4Njc5Mywt
-MTQ1ODIyNTU0Ml19
+eyJoaXN0b3J5IjpbMTI3MjQ1MDYxMCwxMjA3Nzg1NDg2LC0xMj
+kyMDEyMTQyLDEyMDYxNzU1OTYsMTg5NDkxNTg3OCwxOTgyOTA4
+MTgzLC0yMjcyMjYzNzgsLTEyNDAwMjAwNTUsLTEyNjkzMzMyOD
+EsODk5ODE2Nzk4LDIwNTc3ODk5MTMsLTUxNzU0NDI2LDIwMjI4
+ODc1ODgsLTU2MDMyMDM1MCwtMzUyODE0NDQ1LDEwNjQ1MTU3MD
+QsMTAwMjM3MTMxOSwtMTk2NzI3NTU3NSwtMTgwNzgzMTAwMywx
+Mjc0Nzg2NzkzXX0=
 -->
