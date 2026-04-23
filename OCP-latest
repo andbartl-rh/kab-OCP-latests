@@ -1,6 +1,6 @@
 - Summary of Latest OCP Product Lifecycle Updates (Stable channel as of Thursday 23rd April 2026)
 
-- **4.21 (4.21.10)** — RHSA: [RHSA-2026:7245](https://access.redhat.com/errata/RHSA-2026:7245) - **4.20 (4.20.18)** — RHSA: [RHSA-2026:6564](https://access.redhat.com/errata/RHSA-2026:6564) - **4.19 (4.19.27)** — RHSA: [RHSA-2026:5878](https://access.redhat.com/errata/RHSA-2026:5878) - **4.18 (4.18.37)** — RHSA: [RHSA-2026:6554](https://access.redhat.com/errata/RHSA-2026:6554) - **4.16 (4.16.55)** — RHSA: [RHSA-2026:327](https://access.redhat.com/errata/RHSA-2026:327)
+- **4.21 (4.21.10)** — RHSA: [RHSA-2026:7245](https://access.redhat.com/errata/RHSA-2026:7245) **4.20 (4.20.18)** — RHSA: [RHSA-2026:6564](https://access.redhat.com/errata/RHSA-2026:6564) - **4.19 (4.19.27)** — RHSA: [RHSA-2026:5878](https://access.redhat.com/errata/RHSA-2026:5878) - **4.18 (4.18.37)** — RHSA: [RHSA-2026:6554](https://access.redhat.com/errata/RHSA-2026:6554) - **4.16 (4.16.55)** — RHSA: [RHSA-2026:327](https://access.redhat.com/errata/RHSA-2026:327)
 
 
     - **OCP 4.21 (Full Support)**
@@ -27,7 +27,7 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0OTM3MDM1LDEyNzI0NTA2MTAsMTIwNz
+eyJoaXN0b3J5IjpbNzQ4MDY5Njg4LDEyNzI0NTA2MTAsMTIwNz
 c4NTQ4NiwtMTI5MjAxMjE0MiwxMjA2MTc1NTk2LDE4OTQ5MTU4
 NzgsMTk4MjkwODE4MywtMjI3MjI2Mzc4LC0xMjQwMDIwMDU1LC
 0xMjY5MzMzMjgxLDg5OTgxNjc5OCwyMDU3Nzg5OTEzLC01MTc1
