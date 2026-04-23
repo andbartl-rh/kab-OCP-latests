@@ -10,7 +10,7 @@ Generated: 2026-04-23 13:31 UTC
 
 - **4.18 (4.18.37)** — RHSA: [RHSA-2026:6554](https://access.redhat.com/errata/RHSA-2026:6554)
 
-- **4.16 (4.16.55)** — RHSA: [RHSA-2026:327](https://access.redhat.com/errata/RHSA-2026:327)
+- **4.16 (4.16.55)** — RHSA: [RHSA-2026:0327](https://access.redhat.com/errata/RHSA-2026:0327)
 
 Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Life Cycle Policy](https://access.redhat.com/support/policy/updates/openshift)
 
@@ -25,11 +25,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUxMzIxMiwtMTAyMjU0MDA4Niw0Nz
-IxNTUzNjMsLTY5NTA0NjI0MCw3NDgwNjk2ODgsMTI3MjQ1MDYx
-MCwxMjA3Nzg1NDg2LC0xMjkyMDEyMTQyLDEyMDYxNzU1OTYsMT
-g5NDkxNTg3OCwxOTgyOTA4MTgzLC0yMjcyMjYzNzgsLTEyNDAw
-MjAwNTUsLTEyNjkzMzMyODEsODk5ODE2Nzk4LDIwNTc3ODk5MT
-MsLTUxNzU0NDI2LDIwMjI4ODc1ODgsLTU2MDMyMDM1MCwtMzUy
-ODE0NDQ1XX0=
+eyJoaXN0b3J5IjpbMTA2MjU4NjM5NCwtMTgzNTEzMjEyLC0xMD
+IyNTQwMDg2LDQ3MjE1NTM2MywtNjk1MDQ2MjQwLDc0ODA2OTY4
+OCwxMjcyNDUwNjEwLDEyMDc3ODU0ODYsLTEyOTIwMTIxNDIsMT
+IwNjE3NTU5NiwxODk0OTE1ODc4LDE5ODI5MDgxODMsLTIyNzIy
+NjM3OCwtMTI0MDAyMDA1NSwtMTI2OTMzMzI4MSw4OTk4MTY3OT
+gsMjA1Nzc4OTkxMywtNTE3NTQ0MjYsMjAyMjg4NzU4OCwtNTYw
+MzIwMzUwXX0=
 -->
