@@ -1,7 +1,7 @@
 ### OpenShift latest stable channel errata report
 
 
-- **4.21 (4.21.16)** — RHSA: [RHSA-2026:17474](https://access.redhat.com/errata/RHSA-2026:17474)
+- **4.21 (4.21.17)** — RHSA: [RHSA-2026:20034](https://access.redhat.com/errata/RHSA-2026:20034)
 
 - **4.20 (4.20.23)** — RHSA: [RHSA-2026:17468](https://access.redhat.com/errata/RHSA-2026:17468)
 
@@ -24,11 +24,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODMxMDkxLDQ0MDM2ODE0NywtNzE5Nj
-k4NzAwLDEwNjI1ODYzOTQsLTE4MzUxMzIxMiwtMTAyMjU0MDA4
-Niw0NzIxNTUzNjMsLTY5NTA0NjI0MCw3NDgwNjk2ODgsMTI3Mj
-Q1MDYxMCwxMjA3Nzg1NDg2LC0xMjkyMDEyMTQyLDEyMDYxNzU1
-OTYsMTg5NDkxNTg3OCwxOTgyOTA4MTgzLC0yMjcyMjYzNzgsLT
-EyNDAwMjAwNTUsLTEyNjkzMzMyODEsODk5ODE2Nzk4LDIwNTc3
-ODk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTEwMzgzMTkyMDIsLTI3ODMxMDkxLDQ0MD
+M2ODE0NywtNzE5Njk4NzAwLDEwNjI1ODYzOTQsLTE4MzUxMzIx
+MiwtMTAyMjU0MDA4Niw0NzIxNTUzNjMsLTY5NTA0NjI0MCw3ND
+gwNjk2ODgsMTI3MjQ1MDYxMCwxMjA3Nzg1NDg2LC0xMjkyMDEy
+MTQyLDEyMDYxNzU1OTYsMTg5NDkxNTg3OCwxOTgyOTA4MTgzLC
+0yMjcyMjYzNzgsLTEyNDAwMjAwNTUsLTEyNjkzMzMyODEsODk5
+ODE2Nzk4XX0=
 -->
