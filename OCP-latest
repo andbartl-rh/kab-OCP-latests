@@ -1,18 +1,17 @@
 ### OpenShift latest stable channel errata report
 
 
-- **4.22 (4.22.1)** via `stable-4.22` — RHSA: [RHSA-2026:25206](https://access.redhat.com/errata/RHSA-2026:25206)
+- **4.22 (4.22.2)** via `stable-4.22` — RHSA: [RHSA-2026:27009](https://access.redhat.com/errata/RHSA-2026:27009)
 
-- **4.21 (4.21.20)** via `stable-4.21` — RHSA: [RHSA-2026:25187](https://access.redhat.com/errata/RHSA-2026:25187)
+- **4.21 (4.21.21)** via `stable-4.21` — RHSA: [RHSA-2026:27044](https://access.redhat.com/errata/RHSA-2026:27044)
 
-- **4.20 (4.20.25)** via `stable-4.20` — RHSA: [RHSA-2026:25194](https://access.redhat.com/errata/RHSA-2026:25194)
+- **4.20 (4.20.26)** via `stable-4.20` — RHSA: [RHSA-2026:27063](https://access.redhat.com/errata/RHSA-2026:27063)
 
-- **4.19 (4.19.34)** via `stable-4.19` — RHSA: [RHSA-2026:25201](https://access.redhat.com/errata/RHSA-2026:25201)
+- **4.19 (4.19.35)** via `stable-4.19` — RHSA: [RHSA-2026:27004](https://access.redhat.com/errata/RHSA-2026:27004)
 
 - **4.18 (4.18.44)** via `stable-4.18` — RHSA: [RHSA-2026:25182](https://access.redhat.com/errata/RHSA-2026:25182)
 
 - **4.16 (4.16.55)** via `stable-4.16` — RHSA: [RHSA-2026:0327](https://access.redhat.com/errata/RHSA-2026:0327)
-
 Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Life Cycle Policy](https://access.redhat.com/support/policy/updates/openshift)
 
 &nbsp;
@@ -26,11 +25,11 @@ Information on Lifecycle can be found: [Red Hat OpenShift Container Platform Lif
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNTc3MjAsLTc4NTU2MDg5NywtOTQyOD
-AxMDEsLTEwMzgzMTkyMDIsLTI3ODMxMDkxLDQ0MDM2ODE0Nywt
-NzE5Njk4NzAwLDEwNjI1ODYzOTQsLTE4MzUxMzIxMiwtMTAyMj
-U0MDA4Niw0NzIxNTUzNjMsLTY5NTA0NjI0MCw3NDgwNjk2ODgs
-MTI3MjQ1MDYxMCwxMjA3Nzg1NDg2LC0xMjkyMDEyMTQyLDEyMD
-YxNzU1OTYsMTg5NDkxNTg3OCwxOTgyOTA4MTgzLC0yMjcyMjYz
-NzhdfQ==
+eyJoaXN0b3J5IjpbMTAzOTEwODEwMCw1MTI1NzcyMCwtNzg1NT
+YwODk3LC05NDI4MDEwMSwtMTAzODMxOTIwMiwtMjc4MzEwOTEs
+NDQwMzY4MTQ3LC03MTk2OTg3MDAsMTA2MjU4NjM5NCwtMTgzNT
+EzMjEyLC0xMDIyNTQwMDg2LDQ3MjE1NTM2MywtNjk1MDQ2MjQw
+LDc0ODA2OTY4OCwxMjcyNDUwNjEwLDEyMDc3ODU0ODYsLTEyOT
+IwMTIxNDIsMTIwNjE3NTU5NiwxODk0OTE1ODc4LDE5ODI5MDgx
+ODNdfQ==
 -->
