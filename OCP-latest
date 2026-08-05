@@ -1,18 +1,17 @@
 ### OpenShift latest stable channel errata report
 
 
-- **4.22 (4.22.5)** via `stable-4.22` — RHSA: [RHSA-2026:37585](https://access.redhat.com/errata/RHSA-2026:37585)
+- **4.22 (4.22.8)** via `stable-4.22` — RHSA: [RHSA-2026:48693](https://access.redhat.com/errata/RHSA-2026:48693)
 
-- **4.21 (4.21.24)** via `stable-4.21` — RHSA: [RHSA-2026:37186](https://access.redhat.com/errata/RHSA-2026:37186)
+- **4.21 (4.21.27)** via `stable-4.21` — RHSA: [RHSA-2026:48670](https://access.redhat.com/errata/RHSA-2026:48670)
 
-- **4.20 (4.20.29)** via `stable-4.20` — RHSA: [RHSA-2026:37628](https://access.redhat.com/errata/RHSA-2026:37628)
+- **4.20 (4.20.32)** via `stable-4.20` — RHSA: [RHSA-2026:48676](https://access.redhat.com/errata/RHSA-2026:48676)
 
-- **4.19 (4.19.37)** via `stable-4.19` — RHSA: [RHSA-2026:34766](https://access.redhat.com/errata/RHSA-2026:34766)
+- **4.19 (4.19.39)** via `stable-4.19` — RHSA: [RHSA-2026:40765](https://access.redhat.com/errata/RHSA-2026:40765)
 
-- **4.18 (4.18.47)** via `stable-4.18` — RHBA: [RHBA-2026:34816](https://access.redhat.com/errata/RHBA-2026:34816)
+- **4.18 (4.18.49)** via `stable-4.18` — RHSA: [RHSA-2026:40828](https://access.redhat.com/errata/RHSA-2026:40828)
 
 - **4.16 (4.16.55)** via `stable-4.16` — RHSA: [RHSA-2026:0327](https://access.redhat.com/errata/RHSA-2026:0327)
-
 &nbsp;
 
 ### What’s new with Red Hat OpenShift Service on AWS
@@ -24,11 +23,11 @@
 
 &nbsp;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjQ0MzExNywxNjI0NDU5MDcsMjI5Mj
-k2NTYwLDUxMjU3NzIwLC03ODU1NjA4OTcsLTk0MjgwMTAxLC0x
-MDM4MzE5MjAyLC0yNzgzMTA5MSw0NDAzNjgxNDcsLTcxOTY5OD
-cwMCwxMDYyNTg2Mzk0LC0xODM1MTMyMTIsLTEwMjI1NDAwODYs
-NDcyMTU1MzYzLC02OTUwNDYyNDAsNzQ4MDY5Njg4LDEyNzI0NT
-A2MTAsMTIwNzc4NTQ4NiwtMTI5MjAxMjE0MiwxMjA2MTc1NTk2
+eyJoaXN0b3J5IjpbLTU4NDYzMjA1MiwtMzkyNDQzMTE3LDE2Mj
+Q0NTkwNywyMjkyOTY1NjAsNTEyNTc3MjAsLTc4NTU2MDg5Nywt
+OTQyODAxMDEsLTEwMzgzMTkyMDIsLTI3ODMxMDkxLDQ0MDM2OD
+E0NywtNzE5Njk4NzAwLDEwNjI1ODYzOTQsLTE4MzUxMzIxMiwt
+MTAyMjU0MDA4Niw0NzIxNTUzNjMsLTY5NTA0NjI0MCw3NDgwNj
+k2ODgsMTI3MjQ1MDYxMCwxMjA3Nzg1NDg2LC0xMjkyMDEyMTQy
 XX0=
 -->
